@@ -1,2 +1,6 @@
 teste
+<<<<<<< HEAD
 teste3
+=======
+teste1
+>>>>>>> d8119d350c9e85b48a4f5fade862304da70dbe30
