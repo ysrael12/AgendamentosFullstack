@@ -6,6 +6,17 @@
 
 Esta é a documentação da API de Clínica, desenvolvida com o framework Spring Boot em Java. A API permite a gestão de agendamentos médicos, fornecendo endpoints para criar, listar e pesquisar agendamentos com base em diferentes critérios, como nome de paciente, nome de médico e status de consulta.
 
+## Configurando variáveis de ambiente:
+
+Antes de executar o aplicativo Spring Boot, você precisará configurar as variáveis de ambiente para fornecer informações sensíveis, como a senha do banco de dados. Siga as etapas abaixo para definir as variáveis de ambiente:
+
+#### No Windows:
+``` set SPRING_DATASOURCE_PASSWORD=sua_senha_do_banco_de_dados ```
+
+#### No Linux/macOS:
+``` export SPRING_DATASOURCE_PASSWORD=sua_senha_do_banco_de_dados ```
+
+
 ## Pacote com.raxy.clinica.Data
 
 ### Classe Agendamento
